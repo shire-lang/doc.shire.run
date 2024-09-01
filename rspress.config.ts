@@ -1,5 +1,5 @@
 import * as path from 'path';
-import { defineConfig } from 'rspress/config';
+import {defineConfig} from 'rspress/config';
 
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
@@ -12,7 +12,10 @@ export default defineConfig({
   },
   themeConfig: {
     socialLinks: [
-      { icon: 'github', mode: 'link', content: 'https://github.com/phodal/shire' },
+      {icon: 'github', mode: 'link', content: 'https://github.com/phodal/shire'},
     ],
-  },
+    footer: {
+      message: 'Shire is an AI Coding Agent Language',
+    }
+  }
 });
