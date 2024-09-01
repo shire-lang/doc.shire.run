@@ -10,6 +10,7 @@ export default defineConfig({
     light: '/plugin-icon.svg',
     dark: '/plugin-icon.svg',
   },
+  logoText: 'Shire',
   themeConfig: {
     socialLinks: [
       {icon: 'github', mode: 'link', content: 'https://github.com/phodal/shire'},
