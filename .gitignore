@@ -222,3 +222,7 @@ Temporary Items
 *.iml
 out
 gen
+
+# RsPress
+
+doc_build/

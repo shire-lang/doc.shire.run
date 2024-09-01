@@ -1,0 +1,20 @@
+{
+  "name": "doc.shire.run",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rspress dev",
+    "build": "rspress build",
+    "preview": "rspress preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "rspress": "^1.28.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "@types/node": "^16"
+  }
+}

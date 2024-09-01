@@ -1,0 +1,40 @@
+[
+  "index",
+  "quick-start",
+  "design-principle",
+  {
+    "type": "dir",
+    "name": "shire",
+    "label": "Shire Language"
+  },
+  {
+    "type": "dir",
+    "name": "lifecycle",
+    "label": "Lifecycle"
+  },
+  {
+    "type": "dir",
+    "name": "shireql",
+    "label": "ShireQL"
+  },
+  {
+    "type": "dir",
+    "name": "data-privacy",
+    "label": "Data Privacy"
+  },
+  {
+    "type": "dir",
+    "name": "workflow",
+    "label": "Workflow"
+  },
+  {
+    "type": "dir",
+    "name": "cloud",
+    "label": "Cloud"
+  },
+  {
+    "type": "dir",
+    "name": "development",
+    "label": "Development"
+  }
+]

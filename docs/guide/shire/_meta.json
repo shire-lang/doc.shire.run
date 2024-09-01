@@ -1,0 +1,10 @@
+[
+  "shire-lang",
+  "shire-template",
+  "shire-hobbit-hole",
+  "shire-builtin-variable",
+  "shire-custom-variable",
+  "shire-toolchain-variable",
+  "shire-toolchain-function",
+  "when"
+]
