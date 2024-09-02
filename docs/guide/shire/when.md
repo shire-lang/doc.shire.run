@@ -43,7 +43,7 @@ when: { $filePath.contains("src/main/java") && $fileName.contains(".java") }
 
 详细见：[com.phodal.shirelang.compiler.hobbit.ast.ExpressionBuiltInMethod]
 
-```Kotlin
+```kotlin
 enum class ExpressionBuiltInMethod(
     val methodName: String,
     val description: String,

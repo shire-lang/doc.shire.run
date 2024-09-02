@@ -19,7 +19,7 @@
 
 但是，这些工具都无法满足我的需求，所以在过去我也编写了一系列的文档生成工具，诸如：Forming （ https://github.com/inherd/forming ）
 
-```Rust
+```rust
 // doc-code: file("src/lib.rs").line()[2, 5]
 // 读取 "src/lib.rs" 文件的第 2 到第 5 行
 // doc-section: file("src/lib.rs").section("section1")
