@@ -7,7 +7,7 @@
 
 示例：
 
-```shire
+```yaml
 ---
 afterStreaming: {
     case condition {

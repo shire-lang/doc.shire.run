@@ -4,19 +4,19 @@
 
 几种方式：
 
-```shire
+```yaml
 ---
 variables:
   "var1": "demo"
   "var2": /.*.java/ { grep("error.log") | sort | xargs("rm")}
   "var3": /.*.log/ {
     case "$0" {
-      "error" { grep("ERROR") | sort | xargs("notify_admin") }
-      "warn" { grep("WARN") | sort | xargs("notify_admin") }
-      "info" { grep("INFO") | sort | xargs("notify_user") }
-      default  { grep("ERROR") | sort | xargs("notify_admin") }
+    "error" { grep("ERROR") | sort | xargs("notify_admin") }
+    "warn" { grep("WARN") | sort | xargs("notify_admin") }
+    "info" { grep("INFO") | sort | xargs("notify_user") }
+    default  { grep("ERROR") | sort | xargs("notify_admin") }
     }
-  }  
+}
 ---
 ```
 
@@ -49,7 +49,7 @@ variables:
 
 ### 示例 1：Pattern-Action Pipeline
 
-```shire
+```yaml
 ---
 variables:
   "var2": /.*.java/ { cat | grep("error.log") | sort | cat }
@@ -68,16 +68,16 @@ variables:
 
 ### 示例 2：Pattern-Action 多 CASE
 
-```shire
+```yaml
 ---
 variables:
   "testTemplate": /\(.*\).java/ {
     case "$1" {
-      "Controller" { cat(".shire/templates/ControllerTest.java") }
-      "Service" { cat(".shire/templates/ServiceTest.java") }
-      default  { cat(".shire/templates/DefaultTest.java") }
+    "Controller" { cat(".shire/templates/ControllerTest.java") }
+    "Service" { cat(".shire/templates/ServiceTest.java") }
+    default  { cat(".shire/templates/DefaultTest.java") }
     }
-  }
+}
 ---
 ```
 

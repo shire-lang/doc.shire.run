@@ -20,7 +20,7 @@ Here is the detail
 
 We use Velocity Template to generate the final prompt, and you can access the context variables in the template.
 
-```shire
+```yaml
 Explain follow code
 
 $beforeCursor

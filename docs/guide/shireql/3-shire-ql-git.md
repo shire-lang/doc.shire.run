@@ -4,7 +4,7 @@
 
 详细见 [#41](https://github.com/phodal/shire/issues/41)
 
-```shire
+```yaml
 ---
 variables:
   "phodalCommits": {

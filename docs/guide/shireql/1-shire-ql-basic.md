@@ -2,9 +2,9 @@
 
 Design
 
-```shire
+```yaml
 ---
-variables
+variables:
   "var1": query {
      // 变量声明部分
      from  {} // datasource，如：`PsiClass`, `GitCommit`, `ProjectDependency` 

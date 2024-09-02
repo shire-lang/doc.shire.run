@@ -20,7 +20,7 @@
 
 1. first create new file, like `sample.shire`, with content:
 
-```shire
+```yaml
 Explain code /file:src/main/java/com/example/Controller.java
 ```
 
@@ -30,7 +30,7 @@ Explain code /file:src/main/java/com/example/Controller.java
 
 Example:
 
-```shire
+```yaml
 ---
 name: "AutoTest"
 description: "AutoTest"

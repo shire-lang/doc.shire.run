@@ -4,7 +4,7 @@
 
 Basic Sed Example
 
-```shire
+```yaml
 ---
 variables:
   "var2": /.*ple.shire/ { cat | grep("fileName") | sed("\"fileName\"", "hello.kt") }
@@ -15,7 +15,7 @@ Summary webpage: $var2
 
 OpenAI Example:
 
-```shire
+```yaml
 ---
 variables:
   "openai": "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"

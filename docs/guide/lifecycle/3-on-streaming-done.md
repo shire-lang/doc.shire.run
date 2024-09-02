@@ -30,7 +30,7 @@
 
 ### Hello, world  示例
 
-```shire
+```yaml
 ---
 onStreamingEnd: { parseCode | saveFile | openFile | verifyCode | runCode }
 ---
@@ -52,7 +52,7 @@ onStreamingEnd: { parseCode | saveFile | openFile | verifyCode | runCode }
 
 ### 结合变量的示例
 
-```shire
+```yaml
 ---
 name: Summary
 description: "Generate Summary"
@@ -73,7 +73,7 @@ Summary webpage: $fileName
 
 ### 提交信息生成示例
 
-```shire
+```yaml
 ---
 name: "Commit message"
 interaction: AppendCursor

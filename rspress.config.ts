@@ -17,6 +17,6 @@ export default defineConfig({
     ],
     footer: {
       message: 'Shire is an AI Coding Agent Language',
-    }
+    },
   }
 });

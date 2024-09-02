@@ -1,6 +1,6 @@
 # CLI Copilot
 
-```shire
+```yaml
 ---
 name: "Terminal"
 description: "Generate Cli"

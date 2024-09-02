@@ -13,7 +13,7 @@
 
 普通变量使用示例：
 
-```shire
+```yaml
 ---
 variables:
   "phoneNumber": "086-1234567890"

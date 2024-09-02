@@ -2,7 +2,7 @@
 
 ## Maven 示例
 
-```shire
+```yaml
 ---
 variables:
   "mavenDependencies": {

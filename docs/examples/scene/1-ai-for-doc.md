@@ -80,7 +80,7 @@
 
 随后，我们就可以根据目标文档路径，诸如 `docs/shire/shire-builtin-variable.md` 编写对应的生成逻辑。诸如于：
 
-```shire
+```yaml
 ---
 name: "Context Variable"
 description: "Here is a description of the action."
@@ -106,7 +106,7 @@ $contextVariable
 
 除此，当代码库中包含有测试用例时，我们就可以配置示例作为代码示例：
 
-```shire
+```yaml
 ---
 name: "Hobbit Hole"
 description: "Here is a description of the action."
@@ -128,7 +128,7 @@ onStreamingEnd: { saveFile("docs/shire/shire-hobbit-hole.md")  }
 
 对于更复杂的场景，则可以直接结合 RAG 与 Shire 的 workflow 来实现。如下所示：
 
-```shire
+```yaml
 ---
 name: "Semantic Search"
 variables:

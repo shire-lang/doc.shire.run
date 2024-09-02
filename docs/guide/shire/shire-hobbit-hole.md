@@ -4,7 +4,7 @@ Hobbit Hole 用于定义数据处理流程与 IDE 交互逻辑。
 
 ## Hobbit Hole 概述
 
-```shire
+```yaml
 ---
 name: "Summary"
 description: "Generate Summary"
@@ -33,7 +33,7 @@ actionLocation: ContextMenu
 
 ### 示例代码
 
-```shire
+```yaml
 ---
 name: "Summary"
 description: "Generate Summary"

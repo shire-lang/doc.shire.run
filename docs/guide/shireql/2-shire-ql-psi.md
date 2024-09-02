@@ -2,7 +2,7 @@
 
 示例:
 
-```shire
+```yaml
 ---
 variables:
   "allController": {

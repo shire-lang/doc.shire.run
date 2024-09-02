@@ -1,6 +1,6 @@
 # Code Refactoring
 
-```shire
+```yaml
 ---
 name: "Refactoring"
 actionLocation: ContextMenu

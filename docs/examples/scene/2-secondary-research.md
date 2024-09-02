@@ -7,15 +7,15 @@
 
 ## WebResource
 
-```shire
+```yaml
 ---
 variables:
   "websites": /*\.md/ { capture("docs/crawlSample.md", "link") | crawl() | thread("summary.shire") }
   "confluence": { thread("confluence.bash", param1, param2) }
-  "pythonNode.js": { thread("python.py", param1, param2) }  
+  "pythonNode.js": { thread("python.py", param1, param2) }
 ---
 
-[website]: it will extract all the .md files and crawl them, then thread them with summary.shire, then return the result.
+[ website ]: it will extract all the .md files and crawl them, then thread them with summary.shire, then return the result.
 ```
 
 - `capture` 函数, 参数 1: Language, 参数 2: AST Node Type
@@ -29,7 +29,7 @@ variables:
 
 ### Main.shire
 
-```shire
+```yaml
 ---
 variables:
   "crawl": /crawlSample\.md/ { capture("docs/crawlSample.md", "link") | crawl() | thread(".shire/research/summary.shire") }
@@ -50,7 +50,7 @@ $crawl
 
 ### summary.shire
 
-```shire
+```yaml
 使用中文总结如下的开源项目。
 
 要求：

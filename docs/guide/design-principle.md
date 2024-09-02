@@ -15,7 +15,7 @@ IDE 的智能化和自动化：
   不仅仅是一个静态的文本编辑器，而是一个能够通过语义理解和查询执行来智能操作代码的工具。
   示例：
 
-```shire
+```yaml
 解释如下代码片段。
 
 项目相关的技术栈上下文： $frameworkContext
@@ -41,7 +41,7 @@ AI 能够更智能地参与到代码开发和分析过程中。
   定义代码生成模板、变量和条件，以及执行代码生成任务。这种设计原则让开发者能够更直观、灵活地描述和执行代码生成任务，提升了代码生成的效率和准确性。
   示例：
 
-```shire
+```yaml
 ---
 name: "AutoTest"
 description: "AutoTest"
@@ -67,7 +67,7 @@ Linux 设计思想的启发，强调模块化、独立性和简洁性。
 
 以下是一个示例，展示如何对Java文件进行Embedding，以提供模板中的变量，作为LLM（大型语言模型）的上下文：
 
-```shire
+```yaml
 ---
 variables:
   "searchResult": /*.docx/ { splitting | embedding | searching("API 设计范式") }

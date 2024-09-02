@@ -1,6 +1,6 @@
 # AI AutoTest
 
-```shire
+```yaml
 ---
 name: "AutoTest"
 description: "AutoTest"

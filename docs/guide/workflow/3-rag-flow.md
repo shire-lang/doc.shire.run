@@ -4,7 +4,7 @@
 
 ### 步骤  1
 
-```shire
+```yaml
 ---
 name: "Search"
 variables:
@@ -54,7 +54,7 @@ Response:
 
 ### 步骤 2：返回 Shire 代码
 
-```shire
+```yaml
 Use the above code to answer the following question. You should not reference any files outside of what is shown,
 unless they are commonly known files, like a .gitignore or package.json. Reference the filenames whenever possible.
 If there isn't enough information to answer the question, suggest where the user might look to learn more.

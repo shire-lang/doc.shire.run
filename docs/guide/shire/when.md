@@ -6,7 +6,7 @@ Activate Menu 是一类 `Condition Visible` 用于定义一个条件，当条件
 
 ## 语法示例
 
-```shire
+```yaml
 ---
 when: { $filePath.contains("src/main/java") && $fileName.contains(".java") }
 ---

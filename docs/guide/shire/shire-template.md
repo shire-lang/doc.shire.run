@@ -30,7 +30,7 @@ we keep "/" as `File.separator` for macOS, Windows and Unix.
 
 Read file content:
 
-```shire
+```yaml
 Explain code /file:src/main/java/com/example/Controller.java
 ```
 
@@ -53,7 +53,7 @@ write content to file:
 
 Read git change by git revision:
 
-```shire
+```yaml
 Explain code /rev:HEAD~1
 ```
 
@@ -63,7 +63,7 @@ will call LLM to handle it.
 
 Run file:
 
-```shire
+```yaml
 /run:src/main/java/com/example/Controller.java
 ```
 
@@ -73,7 +73,7 @@ PS: current only support for TestFile, since UnitTest is the best way to run cod
 
 Get child elements by symbol, like get Class by package name.
 
-```shire
+```yaml
 /symbol:com.phodal.shire.demo
 ```
 
@@ -88,7 +88,7 @@ The output will be:
 
 Get method will return code:
 
-```shire
+```yaml
 /symbol:com.phodal.shire.demo.MathHelper.calculateInsurance
 ```
 
@@ -108,7 +108,7 @@ The output will be:
 
 Browse web page:
 
-```shire
+```yaml
 /browse:https://ide.unitmesh.cc
 ```
 
@@ -118,7 +118,7 @@ It will be text inside the body from web page.
 
 Refactor code:
 
-```shire
+```yaml
 /refactor:rename /symbol:com.phodal.shire.demo.MathHelper.calculateInsurance to calculateInsuranceTax
 ```
 

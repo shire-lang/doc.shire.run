@@ -9,7 +9,7 @@
 
 ## ShireQL 示例
 
-```shire
+```yaml
 ---
 variables:
   "tables": {

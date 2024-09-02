@@ -7,7 +7,7 @@ TODO: add some check for the keywords if it's `BanWord` will be a warning.?
 
 示例（TBD）：
 
-```shire
+```yaml
 ---
 onStreaming: { redact }
 ---

@@ -2,7 +2,7 @@
 
 `OnPaste` 可以在用户粘贴代码时，根据上下文，对用户粘贴的代码进行优化。
 
-```shire
+```yaml
 ---
 name: "PasteMaster"
 interaction: OnPaste

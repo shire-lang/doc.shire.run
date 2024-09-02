@@ -14,7 +14,7 @@
 
 ## Basic Example
 
-```shire
+```yaml
 ---
 name: "AutoTest"
 description: "AutoTest"
@@ -27,7 +27,7 @@ Write unit test for following ${context.language} code.
 
 ## Cache Example
 
-```shire
+```yaml
 ---
 name: "Search"
 variables:

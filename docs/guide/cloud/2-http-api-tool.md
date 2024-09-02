@@ -8,7 +8,7 @@ API，作为上下文
 
 先看个例子：
 
-```shire
+```yaml
 ---
 variables:
   "demo": /demo.md/ { thread(".shire/toolchain/bigmodel.curl.sh") }
@@ -66,7 +66,7 @@ curl --location 'https://open.bigmodel.cn/api/paas/v4/chat/completions' \
 
 > JSONPath 是一种类似于 XPath 的语法，用于从 JSON 文档中选择数据。在 Shire 中，我们可以使用 JsonPath 来选择我们需要的数据。
 
-```shire
+```yaml
 ---
 variables:
   "api": /sampl.sh/ { thread(".shire/toolchain/bigmodel.curl.sh") | jsonpath("$.choices[0].message.content") }

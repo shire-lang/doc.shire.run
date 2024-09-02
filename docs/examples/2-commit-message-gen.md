@@ -1,6 +1,6 @@
 # AI Commit Message
 
-```shire
+```yaml
 ---
 name: "Commit message"
 interaction: AppendCursor

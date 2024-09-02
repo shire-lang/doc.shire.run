@@ -7,7 +7,7 @@
 
 如下的代码，用于在 `onStreamingEnd` 后输出结果：
 
-```shire
+```yaml
 ---
 afterStreaming: { 
     case condition {
@@ -23,7 +23,7 @@ hi
 
 ### 多条件
 
-```shire
+```yaml
 ---
 afterStreaming: {
     condition {

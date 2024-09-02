@@ -8,7 +8,7 @@ See in [ShireParser.bnf] for latest version.
 
 Example:
 
-```shire
+```yaml
 ---
 key: "value"
 ---
@@ -29,7 +29,7 @@ All
 
 Example:
 
-```shire
+```yaml
 ---
 when:  { $selection.length() >= 0 }
 ---
@@ -47,7 +47,7 @@ All
 
 #### Ast Query Expression
 
-```shire
+```yaml
 ---
 variables:
   "allController": {
