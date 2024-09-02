@@ -12,9 +12,10 @@
   "author": "",
   "license": "MPL-2.0",
   "devDependencies": {
+    "@rspress/plugin-shiki": "^1.28.3",
+    "@types/node": "^16",
     "rspress": "^1.28.3",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.4",
-    "@types/node": "^16"
+    "typescript": "^5.5.4"
   }
 }

@@ -130,13 +130,12 @@ select expr
 
 https://sourcegraph.com/docs/code-search/queries
 
-```query
+```yaml
 repo:^github\.com/sourcegraph/sourcegraph$ type:diff select:commit.diff.removed TODO
 
 type:diff after:"1 week ago" \.subscribe\( lang:typescript
 
 repo:github\.com/sourcegraph/sourcegraph$ (test AND http AND NewRequest) lang:go
-
 ```
 
 Date function
